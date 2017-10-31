@@ -1,0 +1,27 @@
+{
+  "name": "grunt-copyright-test",
+  "version": "0.1.0",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "scripts": {
+    "grunt-copyright": "./node_modules/.bin/grunt copyright"
+  },
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-banner": "^0.6.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-mkdir": "^1.0.0"
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pk-nodejs/grunt-copyright-test.git"
+  },
+  "description": "Grunt copyright test",
+  "license": "MIT"
+}
