@@ -27,7 +27,7 @@ module.exports = function GruntConfig(grunt) {
       }
     },
 
-    usebanner: {
+    checkcopyright: {
       taskName: {
         options: {
           position: 'top',
@@ -46,7 +46,9 @@ module.exports = function GruntConfig(grunt) {
   
   grunt.loadNpmTasks('grunt-mkdir');
   grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-banner');
+  //grunt.loadNpmTasks('grunt-banner');
+  grunt.loadNpmTasks('grunt-oe-copyright');
 
-  grunt.registerTask('copyright', ['clean:dist', 'mkdir', 'copy', 'usebanner']);
+  //grunt.registerTask('copyright', ['clean:dist', 'mkdir', 'copy', 'usebanner']);
+  grunt.registerTask('oe-checkcopyright', ['clean:dist', 'mkdir', 'copy', 'checkcopyright']);
 };

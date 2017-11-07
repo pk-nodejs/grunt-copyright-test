@@ -6,7 +6,7 @@
     "node": ">=6.9.0"
   },
   "scripts": {
-    "grunt-copyright": "./node_modules/.bin/grunt copyright"
+    "grunt-copyright": "./node_modules/.bin/grunt oe-checkcopyright"
   },
   "dependencies": {
     "grunt": "^0.4.5",
